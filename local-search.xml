@@ -4,7 +4,32 @@
   
   
   <entry>
-    <title>mc-server</title>
+    <title>PCL�̳�-ģ�鰲װ</title>
+    <link href="/2026/04/11/pcl-mod-mc/"/>
+    <url>/2026/04/11/pcl-mod-mc/</url>
+    
+    <content type="html"><![CDATA[<h1 id="PCL�̳�-g�鰲װ"><a href="#PCL�̳�-g�鰲װ" class="headerlink" title="PCL�̳�-ģ�鰲װ"></a>PCL�̳�-ģ�鰲װ</h1><h2 id="����-j����Ҫ"><a href="#����-j����Ҫ" class="headerlink" title="����&amp;ǰ����Ҫ"></a>����&amp;<del>ǰ����Ҫ</del></h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">��һƪ</a>�����ᵽ����ΰ�װ��Ϸ�汾���������Ǿ�����װģ��(Mod)!    <p>�����˾ͻ����ˣ���ʲô��ģ���أ�<br>ģ��(Mod)��������Ϸ��������ӵĲ��������������Ϸ���ݡ��Ż���Ϸ���顣</p><h2 id="����"><a href="#����" class="headerlink" title="����"></a>����</h2><h3 id="����׼��"><a href="#����׼��" class="headerlink" title="����׼��"></a>����׼��</h3><ol><li>Windows 10������(����Linuxϵͳ����ʹ��HMCL)</li><li>��һ�ΰ�װ��PCL</li></ol><h3 id="����-1"><a href="#����-1" class="headerlink" title="����"></a>����</h3><ol><li><p>��PCL������[����]ҳ��ѡ��汾(������ѡ������1.20.6&#x2F;1.21.1)�����Կ����������ĸ�С����:</p> <figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs 1c">Forge       <span class="hljs-comment">//ʡ��:ģ��ͦ��ģ��Ƚ��Ƽ�</span><br>NeoForge    <span class="hljs-comment">//ʡ��:��Forge������������������</span><br>Fabric      <span class="hljs-comment">//ʡ��:��������ģ����̬���ʺ����硢�������ϰ���(�Դ�FabricAPI)</span><br>Optifine    <span class="hljs-comment">//ʡ��:����!��һ��Ѷ��������ݣ�����ֻ��Fabric��һЩ�汾����</span><br></code></pre></td></tr></table></figure><p> ѡ��ģ��������������ǰ3��ѡһ����<br> <strong>ģ���������൱��ģ��� <em>�ػ�</em>�����������ſ�������ģ��</strong><br> Ȼ����[����]���ȴ�������ɡ�</p></li><li><p>ģ������<br> �����ṩһ����ģ��汾��β鿴&#x2F;����ģ����ģ���ļ��� <strong>�����԰�ģ��jar�ļ�ֱ�ӷŵ�ģ���ļ����</strong><br> <strong>�鿴ģ��</strong>��  </p><ul><li>�л���[����],�Ƚ���[�汾ѡ��]��ѡ����ģ��İ汾��   </li><li>Ȼ���ٵ�[�汾����]���ҵ�������[Mod����]���Ϳ��Կ�������Mod</li></ul><p> <strong>����ģ��</strong>��  </p><ul><li>���ţ��������ͣ��Mod�ϣ��ұ߻ᵯ���ĸ�ѡ�</li></ul><pre><code class="hljs">(i) [�ļ���ͼ��] (-)/(��) [����Ͱͼ��]</code></pre><p> <code>(i)</code>: �鿴Mod��Ϣ������Mod����ҳ��<br> <code>[�ļ���ͼ��]</code>: ���ļ�λ��<br> <code>(-)��(��)</code>: ����&#x2F;����Mod<br> <code>[����Ͱͼ��]</code>: ɾ��Mod</p></li><li><p>��װMod<br> <del><strong><em>������½�һ������������</em></strong></del></p></li></ol><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>�ҵ�����</tag>
+      
+      <tag>��Ϸ</tag>
+      
+      <tag>�̳�</tag>
+      
+      <tag>ģ��</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>MC服务器推广</title>
     <link href="/2026/04/11/mc-server/"/>
     <url>/2026/04/11/mc-server/</url>
     
@@ -44,7 +69,7 @@
     <link href="/2026/03/22/%E7%B4%A2%E5%BC%95/"/>
     <url>/2026/03/22/%E7%B4%A2%E5%BC%95/</url>
     
-    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">MC专区</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">mc专区</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
     
     
     
@@ -57,7 +82,7 @@
     <link href="/2026/03/22/pcl-mc/"/>
     <url>/2026/03/22/pcl-mc/</url>
     
-    <content type="html"><![CDATA[<h1 id="PCL教程-基本游戏"><a href="#PCL教程-基本游戏" class="headerlink" title="PCL教程 - 基本游戏"></a>PCL教程 - 基本游戏</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>&emsp;&emsp;MC(Minecraft)是一个全球知名的沙盒游戏，你可以在这个游戏里自由创造，建造你的家园。<br>&emsp;&emsp;但是，中国版（网易版）问题又很多：<br>&emsp;&emsp;&emsp;&emsp;1. 天价模组<br>&emsp;&emsp;&emsp;&emsp;2. 雷霆<del>bug</del>特性<br>&emsp;&emsp;&emsp;&emsp;3. 更新贼慢<br>&emsp;&emsp;所以，就会有很多的人选择国际Java版。<br><del>(89软妹币，太贵了TwT)</del> 但是，现在可以使用启动器(PCL、HMCL等)<em><strong>离线游玩</strong></em>($e^{i\pi}+1$元)!</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><ol><li>Windows 10及以上(若是Linux系统，请使用HMCL)</li><li><a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework">.NET Framework 4.6.2</a></li><li><a href="https://bell-sw.com/pages/downloads/">JDK环境</a></li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li>将JDK安装包和PCL文件下载(PCL建议独立文件夹)<br><img src="https://picui.ogmua.cn/s1/2026/03/23/69c1371c4b22d.webp" alt="1774270313753.png"></li><li>一路Next<br><img src="https://picui.ogmua.cn/s1/2026/03/23/69c1379090d23.webp" alt="1774270431571.png"></li><li>打开PCL    <ol><li>如果正常打开，直接跳到第4步</li><li>如果报错，.NET Framework 4.6.2重装一次(跳过安装过程)<br>例如：<br><img src="https://picui.ogmua.cn/s1/2026/03/23/69c1383209b36.webp" alt="1774270589025.png"></li></ol></li><li>同意许可<br><img src="https://picui.ogmua.cn/s1/2026/03/25/69c3d5b0ef431.webp" alt="1774441984495.png"></li><li>这边先下载，点击下载，选择你要的版本（推荐正式版，最稳）<br><img src="https://picui.ogmua.cn/s1/2026/03/25/69c3d629c116c.webp" alt="1774442104390.png"><br>如果要装模组（下期）建议1.20.6&#x2F;1.21.1</li><li>选择版本，并点击下载<br><img src="https://picui.ogmua.cn/s1/2026/03/25/69c3d67e062ae.webp" alt="1774442187094.png"></li><li>接下来就是<del>漫长地</del>等待…(正常情况下5分钟左右)</li><li>回到启动页，输入游戏名（不唯一），启动<br><img src="https://picui.ogmua.cn/s1/2026/03/25/69c3d84dd456b.webp" alt="1774442652147.png"></li><li><del>窝的圣剑！启动！</del><br><img src="https://picui.ogmua.cn/s1/2026/03/25/69c3d924ab151.webp" alt="1774442865009.png"></li></ol><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><ol><li>VMware Workstation Pro 17(虚拟机录的)</li><li><a href="https://picui.cn/">PICUI图床</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="PCL教程-基本游戏"><a href="#PCL教程-基本游戏" class="headerlink" title="PCL教程 - 基本游戏"></a>PCL教程 - 基本游戏</h1><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>&emsp;&emsp;MC(Minecraft)是一个全球知名的沙盒游戏，你可以在这个游戏里自由创造，建造你的家园。<br>&emsp;&emsp;但是，中国版（网易版）问题又很多：<br>&emsp;&emsp;&emsp;&emsp;1. 天价模组<br>&emsp;&emsp;&emsp;&emsp;2. 雷霆<del>bug</del>特性<br>&emsp;&emsp;&emsp;&emsp;3. 更新贼慢<br>&emsp;&emsp;所以，就会有很多的人选择国际Java版。<br><del>(89软妹币，太贵了TwT)</del> 但是，现在可以使用启动器(PCL、HMCL等)<em><strong>离线游玩</strong></em>!</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><ol><li>Windows 10及以上(若是Linux系统，请使用HMCL)</li><li><a href="https://dotnet.microsoft.com/zh-cn/download/dotnet-framework">.NET Framework 4.6.2</a></li><li><a href="https://bell-sw.com/pages/downloads/">JDK环境</a></li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li>将JDK安装包和PCL文件下载(PCL建议独立文件夹)</li></ol><ol start="2"><li>一路Next</li></ol><ol start="3"><li>打开PCL    <ol><li>如果正常打开，直接跳到第4步</li><li>如果报错，.NET Framework 4.6.2重装一次(跳过安装过程)<br>例如：</li></ol></li></ol><ol start="4"><li>同意许可</li></ol><ol start="5"><li>这边先下载，点击下载，选择你要的版本（推荐正式版，最稳）</li></ol><p>如果要<a href="/2026/04/11/pcl-mod-mc/" title="PCL�̳�-ģ�鰲װ">装模组</a>建议1.20.6&#x2F;1.21.1<br>6. 选择版本，并点击下载</p><ol start="7"><li>接下来就是<del>漫长地</del>等待…(正常情况下5分钟左右)</li><li>回到启动页，输入游戏名（不唯一），启动</li></ol><ol start="9"><li><del>窝的圣剑！启动！</del></li></ol><h2 id="鸣谢"><a href="#鸣谢" class="headerlink" title="鸣谢"></a>鸣谢</h2><ol><li>VMware Workstation Pro 17(虚拟机录的)</li></ol>]]></content>
     
     
     
@@ -80,7 +105,7 @@
     <link href="/2026/03/22/mc/"/>
     <url>/2026/03/22/mc/</url>
     
-    <content type="html"><![CDATA[<h1 id="MC专区"><a href="#MC专区" class="headerlink" title="MC专区"></a>MC专区</h1><h2 id="PCL教程"><a href="#PCL教程" class="headerlink" title="PCL教程"></a>PCL教程</h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">PCL教程(1)-基础游戏</a>  <p><a href="">PCL教程(未出完)</a></p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><a href="/2026/03/26/mc-nets/" title="压箱底的MC工具站">压箱底的MC工具站</a><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><p><a href="">MC服务器推广(未出完)</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="MC专区"><a href="#MC专区" class="headerlink" title="MC专区"></a>MC专区</h1><h2 id="PCL教程"><a href="#PCL教程" class="headerlink" title="PCL教程"></a>PCL教程</h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">PCL教程(1)-基础游戏</a>  <a href="/2026/04/11/pcl-mod-mc/" title="PCL�̳�-ģ�鰲װ">PCL教程(2)-模组第一部分</a>  <p><a href="">PCL教程(未出完)</a></p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><a href="/2026/03/26/mc-nets/" title="压箱底的MC工具站">压箱底的MC工具站</a><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><a href="/2026/04/11/mc-server/" title="MC服务器推广">MC服务器推广</a>]]></content>
     
     
     
