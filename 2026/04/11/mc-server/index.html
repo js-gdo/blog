@@ -427,13 +427,17 @@
             </div>
 
             <!-- ֱ��Ӳ���� Utterances���������ء������ء�100%��ʾ -->
-            <div style="margin-top:40px;">
-              <script src="https://utteranc.es/client.js"
-                repo="js-gdo/blog-comments"
-                issue-term="pathname"
-                theme="github-light"
-                crossorigin="anonymous"
-                async>
+            <div style="margin-top: 40px; min-height: 300px; overflow: visible;">
+              <script>
+                var s = document.createElement('script');
+                s.src = "https://utteranc.es/client.js";
+                s.setAttribute('repo', "js-gdo/blog-comments");
+                s.setAttribute('issue-term', "pathname");
+                s.setAttribute('theme', "github-light");
+                s.setAttribute('crossorigin', "anonymous");
+                // �ɵ� lazy ��async ����������ִ��
+                s.async = false;
+                document.currentScript.parentNode.appendChild(s);
               </script>
             </div>
           </article>
