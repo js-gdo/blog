@@ -4,11 +4,97 @@
   
   
   <entry>
+    <title>cf-bp-1</title>
+    <link href="/2026/07/12/cf-bp-1/"/>
+    <url>/2026/07/12/cf-bp-1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Cloudflare-域名服务白嫖教程"><a href="#Cloudflare-域名服务白嫖教程" class="headerlink" title="Cloudflare+域名服务白嫖教程"></a>Cloudflare+域名服务白嫖教程</h1><h2 id="第一部分-白嫖域名-DNSHE"><a href="#第一部分-白嫖域名-DNSHE" class="headerlink" title="第一部分 白嫖域名(DNSHE)"></a>第一部分 白嫖域名(DNSHE)</h2><ol><li><a href="https://my.dnshe.com/register.php">注册dnshe账户</a>，会弹出一个认证界面，用GitHub认证即可<br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg.png"></li><li>进入管理界面，点<strong>立即注册</strong><br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-dash-pg.png"></li><li>输入你心仪的域名前缀，并选择根域名，并确认注册 <strong>（如果要vip，换一个域名前缀或根域名）</strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg-domain.png"></li></ol><h2 id="第二部分-注册并配置Cloudflare"><a href="#第二部分-注册并配置Cloudflare" class="headerlink" title="第二部分 注册并配置Cloudflare"></a>第二部分 注册并配置Cloudflare</h2><ol><li>进入<a href="https://dash.cloudflare.com/">Cloudflare仪表盘</a>，点注册<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/login-page.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/inreg.png"></li><li>填上自己的信息 <strong>下面的[可选]尽量不勾 <del>(防骚扰)</del></strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/reg-input-data.png"></li><li>进入[域名-浏览]<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/in-domain-manpg.jpg"></li><li>点“添加域名”-&gt;“连接域名”-&gt;输入刚才的域名并点“继续”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-1.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-2.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-3.png"></li><li>选择“免费”计划 <del>(白嫖的本质)</del><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-choose-plan.png"></li><li>点“继续前往激活”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-gogogo.png"></li><li>加载出来之后刷新，复制分配的2个NS(名称服务器)，在DNSHE界面，点“DNS服务器”，粘贴上去<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dns-server-lookup.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-in-dns-server.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-switch-ns.png"></li><li>Cloudflare界面刷新，点击“立即检查名称服务器”，等待一会刷新<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/check-ns.png"></li><li>如果成功，恭喜你，成功给自己的域名套上了Cloudflare的加持！<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/cf-ns-ok.png"></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Cloudflare专区</title>
+    <link href="/2026/07/12/cloudflare/"/>
+    <url>/2026/07/12/cloudflare/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Cloudflare专区"><a href="#Cloudflare专区" class="headerlink" title="Cloudflare专区"></a>Cloudflare专区</h1><a href="/2026/07/12/cf-bp-1/" title="cf-bp-1">Cloudflare+域名白嫖</a>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>教程</tag>
+      
+      <tag>云</tag>
+      
+      <tag>域名</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>LinBusiness����̳�/����</title>
+    <link href="/2026/06/16/mc-plugin-linbusiness/"/>
+    <url>/2026/06/16/mc-plugin-linbusiness/</url>
+    
+    <content type="html"><![CDATA[<h1 id="LinBusiness����̳�-����"><a href="#LinBusiness����̳�-����" class="headerlink" title="LinBusiness����̳�&#x2F;����"></a>LinBusiness����̳�&#x2F;����</h1><h2 id="������…"><a href="#������…" class="headerlink" title="������…"></a>������…</h2>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>���</tag>
+      
+      <tag>��Ϸ</tag>
+      
+      <tag>�ҵ�����</tag>
+      
+      <tag>Java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>LinPay����̳�/����</title>
+    <link href="/2026/06/16/mc-plugin-linpay/"/>
+    <url>/2026/06/16/mc-plugin-linpay/</url>
+    
+    <content type="html"><![CDATA[<h1 id="LinPay����̳�-����"><a href="#LinPay����̳�-����" class="headerlink" title="LinPay����̳�&#x2F;����"></a>LinPay����̳�&#x2F;����</h1><h2 id="����l��������"><a href="#����l��������" class="headerlink" title="����ļ��������"></a>����ļ��������</h2><p><img src="https://www.helloimg.com/i/2026/06/16/6a3127afa752c.jpg"><br>���⣬LinPayԴ�����Ѿ���Github�Ͽ�Դ�����Է���<br><a href="https://github.com/Minecraft-mod-dev/linpay">����</a></p><h2 id="�������"><a href="#�������" class="headerlink" title="�������"></a>�������</h2><p>Vault���</p><h2 id="����̳�"><a href="#����̳�" class="headerlink" title="����̳�"></a>����̳�</h2><h3 id="lpay-ָ��"><a href="#lpay-ָ��" class="headerlink" title="/lpay ָ��"></a><code>/lpay</code> ָ��</h3><p>����: ��ָ�����(<strong>����</strong>)֧��ָ����Ǯ<br>�÷�: <code>/lpay &lt;���&gt; &lt;����&gt; &lt;���&gt;</code><br>ʾ��: <code>/lpay lin114514 ������Ʒ 10</code>  </p><h3 id="lp-yes-lp-no-ָ��"><a href="#lp-yes-lp-no-ָ��" class="headerlink" title="/lp-yes /lp-no ָ��"></a><code>/lp-yes</code> <code>/lp-no</code> ָ��</h3><p>����: ����&#x2F;������֧��<br>�÷�: <code>/lp-yes</code> <code>/lp-no</code><br>ʾ��: <code>/lp-yes</code> <code>/lp-no</code>  </p><h3 id="setstation-ָ��"><a href="#setstation-ָ��" class="headerlink" title="/setstation ָ��"></a><code>/setstation</code> ָ��</h3><p>����: ����һ����վ����ҿ������շ�10Ԫ���������֧��������բ<strong>2s</strong><br>�÷�: <code>/setstation &lt;x&gt; &lt;y&gt; &lt;z&gt;</code><br>ʾ��: <code>/setstation 11 45 14</code></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>���</tag>
+      
+      <tag>��Ϸ</tag>
+      
+      <tag>�ҵ�����</tag>
+      
+      <tag>Java</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>PCL教程-模组安装</title>
     <link href="/2026/04/11/pcl-mod-mc/"/>
     <url>/2026/04/11/pcl-mod-mc/</url>
     
-    <content type="html"><![CDATA[<h1 id="PCL教程-模组安装"><a href="#PCL教程-模组安装" class="headerlink" title="PCL教程-模组安装"></a>PCL教程-模组安装</h1><h2 id="引言-前情提要"><a href="#引言-前情提要" class="headerlink" title="引言&amp;前情提要"></a>引言&amp;<del>前情提要</del></h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">上一篇</a>我们提到了如何安装游戏版本，现在我们就来安装模组(Mod)!    <p>那有人就会问了，那什么是模组呢？<br>模组(Mod)，就是游戏里可以添加的插件，可以增加游戏内容、优化游戏体验。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><ol><li>Windows 10及以上(若是Linux系统，请使用HMCL)</li><li>上一次安装的PCL</li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li><p>打开PCL，进入[下载]页，选择版本(都可以选，建议1.20.6&#x2F;1.21.1)，可以看到下面有四个小格子:</p> <figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs 1c">Forge       <span class="hljs-comment">//省流:模组挺多的，比较推荐</span><br>NeoForge    <span class="hljs-comment">//省流:从Forge分流出来，可以试试</span><br>Fabric      <span class="hljs-comment">//省流:最完整的模组生态，适合生电、大型整合包等(自带FabricAPI)</span><br>Optifine    <span class="hljs-comment">//省流:避雷!与一大堆东西不兼容，而且只有Fabric的一些版本可用</span><br></code></pre></td></tr></table></figure><p> 选择模组启动器（上面前3个选一个）<br> <strong>模组启动器相当于模组的 <em>地基</em>，必须有他才可以添加模组</strong><br> 然后点击[下载]，等待下载完成。</p></li><li><p>模组设置<br> 这里提供一下有模组版本如何查看&#x2F;禁用模组或打开模组文件夹 <strong>（可以把模组jar文件直接放到模组文件夹里）</strong><br> <strong>查看模组</strong>：  </p><ul><li>切换到[启动],先进入[版本选择]，选择有模组的版本，   </li><li>然后再点[版本设置]，找到侧栏的[Mod管理]，就可以看到所有Mod</li></ul><p> <strong>禁用模组</strong>：  </p><ul><li>接着，将鼠标悬停在Mod上，右边会弹出四个选项：</li></ul><pre><code class="hljs">(i) [文件夹图标] (-)/(√) [垃圾桶图标]</code></pre><p> <code>(i)</code>: 查看Mod信息（进入Mod下载页）<br> <code>[文件夹图标]</code>: 打开文件位置<br> <code>(-)或(√)</code>: 禁用&#x2F;启用Mod<br> <code>[垃圾桶图标]</code>: 删除Mod</p></li><li><p>安装Mod<br> <del><strong><em>点击左下角一口气看到大结局</em></strong></del></p></li></ol><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="PCL教程-模组安装"><a href="#PCL教程-模组安装" class="headerlink" title="PCL教程-模组安装"></a>PCL教程-模组安装</h1><h2 id="引言-前情提要"><a href="#引言-前情提要" class="headerlink" title="引言&amp;前情提要"></a>引言&amp;<del>前情提要</del></h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">上一篇</a>我们提到了如何安装游戏版本，现在我们就来安装模组(Mod)!    <p>那有人就会问了，那什么是模组呢？<br>模组(Mod)，就是游戏里可以添加的插件，可以增加游戏内容、优化游戏体验。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><h3 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h3><ol><li>Windows 10及以上(若是Linux系统，请使用HMCL)</li><li>上一次安装的PCL</li></ol><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><ol><li><p>打开PCL，进入[下载]页，选择版本(都可以选，建议1.20.6&#x2F;1.21.1)，可以看到下面有四个小格子:</p> <figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs 1c">Forge       <span class="hljs-comment">//省流:模组挺多的，比较推荐</span><br>NeoForge    <span class="hljs-comment">//省流:从Forge分流出来，可以试试</span><br>Fabric      <span class="hljs-comment">//省流:最完整的模组生态，适合生电、大型整合包等(自带FabricAPI)</span><br>Optifine    <span class="hljs-comment">//省流:避雷!与一大堆东西不兼容，而且只有一些版本可用</span><br></code></pre></td></tr></table></figure><p> 选择模组启动器（上面前3个选一个）<br> <strong>模组启动器相当于模组的 <em>地基</em>，必须有他才可以添加模组</strong><br> 然后点击[下载]，等待下载完成。</p></li><li><p>模组设置<br> 这里提供一下有模组版本如何查看&#x2F;禁用模组或打开模组文件夹 <strong>（可以把模组jar文件直接放到模组文件夹里）</strong><br> <strong>查看模组</strong>：  </p><ul><li>切换到[启动],先进入[版本选择]，选择有模组的版本，   </li><li>然后再点[版本设置]，找到侧栏的[Mod管理]，就可以看到所有Mod</li></ul><p> <strong>禁用模组</strong>：  </p><ul><li>接着，将鼠标悬停在Mod上，右边会弹出四个选项：</li></ul><pre><code class="hljs">(i) [文件夹图标] (-)/(√) [垃圾桶图标]</code></pre><p> <code>(i)</code>: 查看Mod信息（进入Mod下载页）<br> <code>[文件夹图标]</code>: 打开文件位置<br> <code>(-)或(√)</code>: 禁用&#x2F;启用Mod<br> <code>[垃圾桶图标]</code>: 删除Mod</p></li><li><p>安装Mod<br> <del><strong><em>点击左下角一口气看到大结局</em></strong></del></p></li></ol><h2 id="End"><a href="#End" class="headerlink" title="End"></a>End</h2>]]></content>
     
     
     
@@ -33,7 +119,7 @@
     <link href="/2026/04/11/mc-server/"/>
     <url>/2026/04/11/mc-server/</url>
     
-    <content type="html"><![CDATA[<h1 id="MC服务器推广"><a href="#MC服务器推广" class="headerlink" title="MC服务器推广"></a>MC服务器推广</h1><h2 id="1-HappyServer-原版1-21"><a href="#1-HappyServer-原版1-21" class="headerlink" title="1. HappyServer(原版1.21)"></a>1. HappyServer(原版1.21)</h2><p><code>hs.lin114514.top</code></p><h2 id="2-FutureServer-原版1-21-1"><a href="#2-FutureServer-原版1-21-1" class="headerlink" title="2. FutureServer(原版1.21.1)"></a>2. FutureServer(原版1.21.1)</h2><p><code>fs.lin114514.top</code></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="MC服务器"><a href="#MC服务器" class="headerlink" title="MC服务器"></a>MC服务器</h1><h2 id="1-HappyServer-原版1-21"><a href="#1-HappyServer-原版1-21" class="headerlink" title="1. HappyServer(原版1.21)"></a>1. HappyServer(原版1.21)</h2><p><code>hs.lin114514.top</code></p><h2 id="2-FutureServer-原版1-21-1"><a href="#2-FutureServer-原版1-21-1" class="headerlink" title="2. FutureServer(原版1.21.1)"></a>2. FutureServer(原版1.21.1)</h2><p><code>fs.lin114514.top</code></p><h2 id="自制插件-Paper"><a href="#自制插件-Paper" class="headerlink" title="自制插件(Paper)"></a>自制插件(Paper)</h2><a href="/2026/06/16/mc-plugin-linpay/" title="LinPay����̳�&#x2F;����">LinPay插件</a>  <a href="/2026/06/16/mc-plugin-linbusiness/" title="LinBusiness����̳�&#x2F;����">LinBusiness插件</a>]]></content>
     
     
     
@@ -60,6 +146,14 @@
     
     
     
+    <tags>
+      
+      <tag>游戏</tag>
+      
+      <tag>我的世界</tag>
+      
+    </tags>
+    
   </entry>
   
   
@@ -69,7 +163,7 @@
     <link href="/2026/03/22/%E7%B4%A2%E5%BC%95/"/>
     <url>/2026/03/22/%E7%B4%A2%E5%BC%95/</url>
     
-    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">mc专区</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">mc专区</a><a href="/2026/07/12/cloudflare/" title="Cloudflare专区">cloudflare教程</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
     
     
     
@@ -105,7 +199,7 @@
     <link href="/2026/03/22/mc/"/>
     <url>/2026/03/22/mc/</url>
     
-    <content type="html"><![CDATA[<h1 id="MC专区"><a href="#MC专区" class="headerlink" title="MC专区"></a>MC专区</h1><h2 id="PCL教程"><a href="#PCL教程" class="headerlink" title="PCL教程"></a>PCL教程</h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">PCL教程(1)-基础游戏</a>   <a href="/2026/04/11/pcl-mod-mc/" title="PCL教程-模组安装">PCL教程(2)-模组第一部分</a>  <p><a href="">PCL教程(未出完)</a></p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><a href="/2026/03/26/mc-nets/" title="压箱底的MC工具站">压箱底的MC工具站</a><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><a href="/2026/04/11/mc-server/" title="MC服务器推广">MC服务器推广</a>]]></content>
+    <content type="html"><![CDATA[<h1 id="MC专区"><a href="#MC专区" class="headerlink" title="MC专区"></a>MC专区</h1><h2 id="PCL教程"><a href="#PCL教程" class="headerlink" title="PCL教程"></a>PCL教程</h2><a href="/2026/03/22/pcl-mc/" title="PCL教程-基本游戏">PCL教程(1)-基础游戏</a>   <a href="/2026/04/11/pcl-mod-mc/" title="PCL教程-模组安装">PCL教程(2)-模组第一部分</a>  <p><a href="">PCL教程(未出完)</a></p><h2 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h2><a href="/2026/03/26/mc-nets/" title="压箱底的MC工具站">压箱底的MC工具站</a><h2 id="服务器"><a href="#服务器" class="headerlink" title="服务器"></a>服务器</h2><a href="/2026/04/11/mc-server/" title="MC服务器推广">MC服务器</a>]]></content>
     
     
     
