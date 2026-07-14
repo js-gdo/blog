@@ -73,21 +73,21 @@
   
   
   <entry>
-    <title>LinBusiness����̳�/����</title>
+    <title>LinBusiness插件教程/解析</title>
     <link href="/2026/06/16/mc-plugin-linbusiness/"/>
     <url>/2026/06/16/mc-plugin-linbusiness/</url>
     
-    <content type="html"><![CDATA[<h1 id="LinBusiness����̳�-����"><a href="#LinBusiness����̳�-����" class="headerlink" title="LinBusiness����̳�&#x2F;����"></a>LinBusiness����̳�&#x2F;����</h1><h2 id="������…"><a href="#������…" class="headerlink" title="������…"></a>������…</h2>]]></content>
+    <content type="html"><![CDATA[<h1 id="LinBusiness插件教程-解析"><a href="#LinBusiness插件教程-解析" class="headerlink" title="LinBusiness插件教程&#x2F;解析"></a>LinBusiness插件教程&#x2F;解析</h1><h2 id="待补充…"><a href="#待补充…" class="headerlink" title="待补充…"></a>待补充…</h2>]]></content>
     
     
     
     <tags>
       
-      <tag>���</tag>
+      <tag>游戏</tag>
       
-      <tag>��Ϸ</tag>
+      <tag>我的世界</tag>
       
-      <tag>�ҵ�����</tag>
+      <tag>插件</tag>
       
       <tag>Java</tag>
       
@@ -98,21 +98,21 @@
   
   
   <entry>
-    <title>LinPay����̳�/����</title>
+    <title>LinPay插件教程/解析</title>
     <link href="/2026/06/16/mc-plugin-linpay/"/>
     <url>/2026/06/16/mc-plugin-linpay/</url>
     
-    <content type="html"><![CDATA[<h1 id="LinPay����̳�-����"><a href="#LinPay����̳�-����" class="headerlink" title="LinPay����̳�&#x2F;����"></a>LinPay����̳�&#x2F;����</h1><h2 id="����l��������"><a href="#����l��������" class="headerlink" title="����ļ��������"></a>����ļ��������</h2><p><img src="https://www.helloimg.com/i/2026/06/16/6a3127afa752c.jpg"><br>���⣬LinPayԴ�����Ѿ���Github�Ͽ�Դ�����Է���<br><a href="https://github.com/Minecraft-mod-dev/linpay">����</a></p><h2 id="�������"><a href="#�������" class="headerlink" title="�������"></a>�������</h2><p>Vault���</p><h2 id="����̳�"><a href="#����̳�" class="headerlink" title="����̳�"></a>����̳�</h2><h3 id="lpay-ָ��"><a href="#lpay-ָ��" class="headerlink" title="/lpay ָ��"></a><code>/lpay</code> ָ��</h3><p>����: ��ָ�����(<strong>����</strong>)֧��ָ����Ǯ<br>�÷�: <code>/lpay &lt;���&gt; &lt;����&gt; &lt;���&gt;</code><br>ʾ��: <code>/lpay lin114514 ������Ʒ 10</code>  </p><h3 id="lp-yes-lp-no-ָ��"><a href="#lp-yes-lp-no-ָ��" class="headerlink" title="/lp-yes /lp-no ָ��"></a><code>/lp-yes</code> <code>/lp-no</code> ָ��</h3><p>����: ����&#x2F;������֧��<br>�÷�: <code>/lp-yes</code> <code>/lp-no</code><br>ʾ��: <code>/lp-yes</code> <code>/lp-no</code>  </p><h3 id="setstation-ָ��"><a href="#setstation-ָ��" class="headerlink" title="/setstation ָ��"></a><code>/setstation</code> ָ��</h3><p>����: ����һ����վ����ҿ������շ�10Ԫ���������֧��������բ<strong>2s</strong><br>�÷�: <code>/setstation &lt;x&gt; &lt;y&gt; &lt;z&gt;</code><br>ʾ��: <code>/setstation 11 45 14</code></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="LinPay插件教程-解析"><a href="#LinPay插件教程-解析" class="headerlink" title="LinPay插件教程&#x2F;解析"></a>LinPay插件教程&#x2F;解析</h1><h2 id="插件文件代码解析"><a href="#插件文件代码解析" class="headerlink" title="插件文件代码解析"></a>插件文件代码解析</h2><p><img src="https://www.helloimg.com/i/2026/06/16/6a3127afa752c.jpg"><br>另外，LinPay源代码已经在Github上开源，可以访问<br><a href="https://github.com/Minecraft-mod-dev/linpay">这里</a></p><h2 id="插件依赖"><a href="#插件依赖" class="headerlink" title="插件依赖"></a>插件依赖</h2><p>Vault插件</p><h2 id="插件教程"><a href="#插件教程" class="headerlink" title="插件教程"></a>插件教程</h2><h3 id="lpay-指令"><a href="#lpay-指令" class="headerlink" title="/lpay 指令"></a><code>/lpay</code> 指令</h3><p>描述: 让指定玩家(<strong>在线</strong>)支付指定的钱<br>用法: <code>/lpay &lt;玩家&gt; &lt;事由&gt; &lt;金额&gt;</code><br>示例: <code>/lpay lin114514 购买物品 10</code>  </p><h3 id="lp-yes-lp-no-指令"><a href="#lp-yes-lp-no-指令" class="headerlink" title="/lp-yes /lp-no 指令"></a><code>/lp-yes</code> <code>/lp-no</code> 指令</h3><p>描述: 允许&#x2F;不允许支付<br>用法: <code>/lp-yes</code> <code>/lp-no</code><br>示例: <code>/lp-yes</code> <code>/lp-no</code>  </p><h3 id="setstation-指令"><a href="#setstation-指令" class="headerlink" title="/setstation 指令"></a><code>/setstation</code> 指令</h3><p>描述: 设置一个车站，玩家靠近后收费10元，如果允许支付，将开闸<strong>2s</strong><br>用法: <code>/setstation &lt;x&gt; &lt;y&gt; &lt;z&gt;</code><br>示例: <code>/setstation 11 45 14</code></p>]]></content>
     
     
     
     <tags>
       
-      <tag>���</tag>
+      <tag>游戏</tag>
       
-      <tag>��Ϸ</tag>
+      <tag>我的世界</tag>
       
-      <tag>�ҵ�����</tag>
+      <tag>插件</tag>
       
       <tag>Java</tag>
       
@@ -152,7 +152,7 @@
     <link href="/2026/04/11/mc-server/"/>
     <url>/2026/04/11/mc-server/</url>
     
-    <content type="html"><![CDATA[<h1 id="MC服务器"><a href="#MC服务器" class="headerlink" title="MC服务器"></a>MC服务器</h1><h2 id="1-HappyServer-原版1-21"><a href="#1-HappyServer-原版1-21" class="headerlink" title="1. HappyServer(原版1.21)"></a>1. HappyServer(原版1.21)</h2><p><code>hs.lin114514.top</code></p><h2 id="2-FutureServer-原版1-21-1"><a href="#2-FutureServer-原版1-21-1" class="headerlink" title="2. FutureServer(原版1.21.1)"></a>2. FutureServer(原版1.21.1)</h2><p><code>fs.lin114514.top</code></p><h2 id="自制插件-Paper"><a href="#自制插件-Paper" class="headerlink" title="自制插件(Paper)"></a>自制插件(Paper)</h2><a href="/2026/06/16/mc-plugin-linpay/" title="LinPay����̳�&#x2F;����">LinPay插件</a>  <a href="/2026/06/16/mc-plugin-linbusiness/" title="LinBusiness����̳�&#x2F;����">LinBusiness插件</a>]]></content>
+    <content type="html"><![CDATA[<h1 id="MC服务器"><a href="#MC服务器" class="headerlink" title="MC服务器"></a>MC服务器</h1><h2 id="1-HappyServer-原版1-21"><a href="#1-HappyServer-原版1-21" class="headerlink" title="1. HappyServer(原版1.21)"></a>1. HappyServer(原版1.21)</h2><p><code>hs.lin114514.top</code></p><h2 id="2-FutureServer-原版1-21-1"><a href="#2-FutureServer-原版1-21-1" class="headerlink" title="2. FutureServer(原版1.21.1)"></a>2. FutureServer(原版1.21.1)</h2><p><code>fs.lin114514.top</code></p><h2 id="自制插件-Paper"><a href="#自制插件-Paper" class="headerlink" title="自制插件(Paper)"></a>自制插件(Paper)</h2><a href="/2026/06/16/mc-plugin-linpay/" title="LinPay插件教程&#x2F;解析">LinPay插件</a>  <a href="/2026/06/16/mc-plugin-linbusiness/" title="LinBusiness插件教程&#x2F;解析">LinBusiness插件</a>]]></content>
     
     
     
