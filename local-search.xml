@@ -4,13 +4,46 @@
   
   
   <entry>
+    <title>cf-bp-2</title>
+    <link href="/2026/07/14/cf-bp-2/"/>
+    <url>/2026/07/14/cf-bp-2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Cloudflare-域名服务白嫖教程-2"><a href="#Cloudflare-域名服务白嫖教程-2" class="headerlink" title="Cloudflare+域名服务白嫖教程(2)"></a>Cloudflare+域名服务白嫖教程(2)</h1><h2 id="第三部分-创建一个GitHubPages-仅作演示"><a href="#第三部分-创建一个GitHubPages-仅作演示" class="headerlink" title="第三部分 创建一个GitHubPages(仅作演示)"></a>第三部分 创建一个GitHubPages(仅作演示)</h2><p>由于我们要把一些东西绑定到域名，所以可以创建一个GitHubPages，如果你有其他方法，可以跳过。</p><ol><li>登录GitHub</li><li>创建一个仓库，输入数据后，点绿色按钮创建</li><li>在本地创建一个文件夹，名字随意</li><li>创建一个<code>index.html</code>(名字不能变)，输入以下内容（为了方便，仅作示例） <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>你好，GitHub Pages！<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span><br></code></pre></td></tr></table></figure></li><li>创建一个<code>CNAME</code>文件（没有后缀名），输入你想分配的域名 例如：<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">xxx.你的域名(如hi.lin114514.top)<br>你的域名(如lin114514.top)<br></code></pre></td></tr></table></figure></li><li>在当前文件夹内，执行以下命令<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs shell">git init<br>git add .<br>git commit -m &quot;自定义内容&quot;<br>git branch -M main<br>git remote add origin https://github.com/你的用户名/你的仓库名.git<br>git push -u origin main<br></code></pre></td></tr></table></figure></li><li>接下来，进入&#x2F;刷新GitHub界面，进入你的仓库，点击Settings-&gt;Pages，选择main，点击Save</li></ol><h2 id="第四部分-绑定域名"><a href="#第四部分-绑定域名" class="headerlink" title="第四部分 绑定域名"></a>第四部分 绑定域名</h2><ol><li>接下来，配置域名。登录Cloudflare，进入域名-&gt;概览-&gt;你的域名</li><li>进入域名页后，进入DNS-&gt;记录-&gt;添加记录</li><li>如图，输入域名数据，记录为CNAME</li><li>回到Github页，点Check again</li><li>刷新后，看到DNS check successful就可以了</li><li>打开你绑定的域名，就会惊喜的发现，你成功绑定了域名</li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>云</tag>
+      
+      <tag>域名</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>cf-bp-1</title>
     <link href="/2026/07/12/cf-bp-1/"/>
     <url>/2026/07/12/cf-bp-1/</url>
     
-    <content type="html"><![CDATA[<h1 id="Cloudflare-域名服务白嫖教程"><a href="#Cloudflare-域名服务白嫖教程" class="headerlink" title="Cloudflare+域名服务白嫖教程"></a>Cloudflare+域名服务白嫖教程</h1><h2 id="第一部分-白嫖域名-DNSHE"><a href="#第一部分-白嫖域名-DNSHE" class="headerlink" title="第一部分 白嫖域名(DNSHE)"></a>第一部分 白嫖域名(DNSHE)</h2><ol><li><a href="https://my.dnshe.com/register.php">注册dnshe账户</a>，会弹出一个认证界面，用GitHub认证即可<br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg.png"></li><li>进入管理界面，点<strong>立即注册</strong><br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-dash-pg.png"></li><li>输入你心仪的域名前缀，并选择根域名，并确认注册 <strong>（如果要vip，换一个域名前缀或根域名）</strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg-domain.png"></li></ol><h2 id="第二部分-注册并配置Cloudflare"><a href="#第二部分-注册并配置Cloudflare" class="headerlink" title="第二部分 注册并配置Cloudflare"></a>第二部分 注册并配置Cloudflare</h2><ol><li>进入<a href="https://dash.cloudflare.com/">Cloudflare仪表盘</a>，点注册<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/login-page.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/inreg.png"></li><li>填上自己的信息 <strong>下面的[可选]尽量不勾 <del>(防骚扰)</del></strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/reg-input-data.png"></li><li>进入[域名-浏览]<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/in-domain-manpg.jpg"></li><li>点“添加域名”-&gt;“连接域名”-&gt;输入刚才的域名并点“继续”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-1.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-2.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-3.png"></li><li>选择“免费”计划 <del>(白嫖的本质)</del><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-choose-plan.png"></li><li>点“继续前往激活”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-gogogo.png"></li><li>加载出来之后刷新，复制分配的2个NS(名称服务器)，在DNSHE界面，点“DNS服务器”，粘贴上去<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dns-server-lookup.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-in-dns-server.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-switch-ns.png"></li><li>Cloudflare界面刷新，点击“立即检查名称服务器”，等待一会刷新<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/check-ns.png"></li><li>如果成功，恭喜你，成功给自己的域名套上了Cloudflare的加持！<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/cf-ns-ok.png"></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="Cloudflare-域名服务白嫖教程-1"><a href="#Cloudflare-域名服务白嫖教程-1" class="headerlink" title="Cloudflare+域名服务白嫖教程(1)"></a>Cloudflare+域名服务白嫖教程(1)</h1><h2 id="第一部分-白嫖域名-DNSHE"><a href="#第一部分-白嫖域名-DNSHE" class="headerlink" title="第一部分 白嫖域名(DNSHE)"></a>第一部分 白嫖域名(DNSHE)</h2><ol><li><a href="https://my.dnshe.com/register.php">注册dnshe账户</a>，会弹出一个认证界面，用GitHub认证即可<br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg.png"></li><li>进入管理界面，点<strong>立即注册</strong><br> <img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-dash-pg.png"></li><li>输入你心仪的域名前缀，并选择根域名，并确认注册 <strong>（如果要vip，换一个域名前缀或根域名）</strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-reg-domain.png"></li></ol><h2 id="第二部分-注册并配置Cloudflare"><a href="#第二部分-注册并配置Cloudflare" class="headerlink" title="第二部分 注册并配置Cloudflare"></a>第二部分 注册并配置Cloudflare</h2><ol><li>进入<a href="https://dash.cloudflare.com/">Cloudflare仪表盘</a>，点注册<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/login-page.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/inreg.png"></li><li>填上自己的信息 <strong>下面的[可选]尽量不勾 <del>(防骚扰)</del></strong><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/reg-input-data.png"></li><li>进入[域名-浏览]<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/in-domain-manpg.jpg"></li><li>点“添加域名”-&gt;“连接域名”-&gt;输入刚才的域名并点“继续”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-1.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-2.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/add-domain-3.png"></li><li>选择“免费”计划 <del>(白嫖的本质)</del><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-choose-plan.png"></li><li>点“继续前往激活”<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/domain-gogogo.png"></li><li>加载出来之后刷新，复制分配的2个NS(名称服务器)，在DNSHE界面，点“DNS服务器”，粘贴上去<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dns-server-lookup.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-in-dns-server.png"><br><img src="https://static.lin114514.top/img/blog/cf-bp-1/dnshe-switch-ns.png"></li><li>Cloudflare界面刷新，点击“立即检查名称服务器”，等待一会刷新<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/check-ns.png"></li><li>如果成功，恭喜你，成功给自己的域名套上了Cloudflare的加持！<br><img src="https://static.lin114514.top/img/blog/cf-bp-1/cf-ns-ok.png"></li></ol>]]></content>
     
     
+    
+    <tags>
+      
+      <tag>云</tag>
+      
+      <tag>域名</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
     
   </entry>
   
@@ -21,17 +54,17 @@
     <link href="/2026/07/12/cloudflare/"/>
     <url>/2026/07/12/cloudflare/</url>
     
-    <content type="html"><![CDATA[<h1 id="Cloudflare专区"><a href="#Cloudflare专区" class="headerlink" title="Cloudflare专区"></a>Cloudflare专区</h1><a href="/2026/07/12/cf-bp-1/" title="cf-bp-1">Cloudflare+域名白嫖</a>]]></content>
+    <content type="html"><![CDATA[<h1 id="Cloudflare专区"><a href="#Cloudflare专区" class="headerlink" title="Cloudflare专区"></a>Cloudflare专区</h1><a href="/2026/07/12/cf-bp-1/" title="cf-bp-1">Cloudflare+域名白嫖1</a>  <a href="/2026/07/14/cf-bp-2/" title="cf-bp-2">Cloudflare+域名白嫖2</a>]]></content>
     
     
     
     <tags>
       
-      <tag>教程</tag>
-      
       <tag>云</tag>
       
       <tag>域名</tag>
+      
+      <tag>教程</tag>
       
     </tags>
     
@@ -100,11 +133,11 @@
     
     <tags>
       
+      <tag>教程</tag>
+      
       <tag>游戏</tag>
       
       <tag>我的世界</tag>
-      
-      <tag>教程</tag>
       
       <tag>模组</tag>
       
@@ -163,7 +196,7 @@
     <link href="/2026/03/22/%E7%B4%A2%E5%BC%95/"/>
     <url>/2026/03/22/%E7%B4%A2%E5%BC%95/</url>
     
-    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">mc专区</a><a href="/2026/07/12/cloudflare/" title="Cloudflare专区">cloudflare教程</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><a href="/2026/03/22/mc/" title="MC专区">mc专区</a>  <a href="/2026/07/12/cloudflare/" title="Cloudflare专区">cloudflare教程</a><h1 id="end"><a href="#end" class="headerlink" title="end"></a>end</h1>]]></content>
     
     
     
@@ -182,11 +215,11 @@
     
     <tags>
       
+      <tag>教程</tag>
+      
       <tag>游戏</tag>
       
       <tag>我的世界</tag>
-      
-      <tag>教程</tag>
       
     </tags>
     
