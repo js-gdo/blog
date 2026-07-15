@@ -1,0 +1,8 @@
+/* ȫ������ҳ�����ӳ�̬��ɫ��Ȩ������ */
+main a {
+    color: #1677ff !important;
+    text-decoration: underline !important;
+}
+main a:hover {
+    color: #4096ff !important;
+}
